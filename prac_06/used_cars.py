@@ -26,5 +26,8 @@ def main():
     # Attempt to drive 115 km
     limo.drive(115)
 
+    # Print the limo object to check __str__ method
+    print(limo)
+
 
 main()
