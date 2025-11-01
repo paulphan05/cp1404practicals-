@@ -1,0 +1,28 @@
+
+BoxLayout:
+    orientation: 'vertical'
+
+    # Top status label (20% height)
+    Label:
+        text: app.status_text
+        font_size: 60
+        size_hint_y: 0.2
+
+    # Up/Down buttons in a horizontal layout
+    BoxLayout:
+        orientation: 'horizontal'
+        Button:
+            text: "Up"
+            on_press: app.handle_press(1)
+        Button:
+            text: "Down"
+            on_press: app.handle_press(-1)
+
+    # Dynamic row of name buttons
+    BoxLayout:
+        id: names_box
+
+    # New label at the bottom (10% height)
+    Label:
+        text: "I did this :)"
+        size_hint_y: 0.1
