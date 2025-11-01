@@ -17,5 +17,8 @@ def main():
     # New Car object called "limo" with 100 units of fuel
     limo = Car("Limo", 100)
 
+    # Add 20 more units of fuel
+    limo.add_fuel(20)
+
 
 main()
