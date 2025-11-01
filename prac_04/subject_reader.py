@@ -7,8 +7,9 @@ FILENAME = "subject_data.txt"
 
 
 def main():
-    data = load_data(FILENAME)
-    print(data)
+    """Read subject data and display."""
+    subjects = load_subjects(FILENAME)
+    display_subjects(subjects)
 
 
 def load_data(filename=FILENAME):
@@ -24,6 +25,9 @@ def load_data(filename=FILENAME):
         print(parts)  # See if that worked
         print("----------")
     input_file.close()
+
+
+main()
 
 
 main()
