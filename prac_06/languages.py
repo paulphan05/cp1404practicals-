@@ -3,7 +3,7 @@ Estimate: 30 minutes
 Actual: 20 minutes
 """
 
-from prac_06.programming_language import ProgrammingLanguages
+from prac_06.programming_language import ProgrammingLanguage
 
 def main():
     python = ProgrammingLanguage("Python", "Dynamic", True, 1991)
