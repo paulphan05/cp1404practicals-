@@ -3,6 +3,8 @@ Estimate: 20 minutes
 Actual: 10 minutes
 """
 current_year = 2025
+
+
 class Guitar:
     """Represent a guitar with name, year, and cost."""
 
