@@ -2,7 +2,7 @@
 Estimate: 20 minutes
 Actual: 10 minutes
 """
-current_year = 2025
+CURRENT_YEAR = 2025
 
 
 class Guitar:
@@ -20,8 +20,12 @@ class Guitar:
 
     def get_age(self):
         """Return the age of the guitar in years."""
-        return current_year - self.year
+        return CURRENT_YEAR - self.year
 
     def is_vintage(self):
         """Return True if the guitar is 50 or more years old, False otherwise."""
         return self.get_age() >= 50
+
+    def __lt__(self, other):
+        """Compare Guitars by year for sorting."""
+        return self.year < other.year
