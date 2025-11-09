@@ -10,7 +10,7 @@ I am Paul Phan. I have been in Australia for almost 2 years. Although it is stil
 
 ## Proper links (linked names, not 'bare URLs') to the Programming Patterns page and the CP1404 Practicals instructions repo.
 
-[Programming Guide](https://github.com/CP1404/Programming-Guide)  
+[Programming Guide](https://github.com/CP1404/Starter/wiki/Programming-Patterns)  
 [Practical instructions](https://github.com/CP1404/Practicals)
 
 
