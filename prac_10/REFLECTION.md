@@ -41,7 +41,8 @@ approaches can solve the same problem, which helped me think more creatively and
 
 ### Good Code Review 1
 
-[https://github.com/Cesca7479/cp1404practicals/pull/3#discussion_r2570237593]()
+[Prac 07](https://github.com/Cesca7479/cp1404practicals/pull/3)
+
 
 ### Explanation
 
